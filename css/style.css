@@ -1,0 +1,91 @@
+.animal {
+  border: 1px solid #fff;
+  margin: 50px 0;
+  width: 50px;
+  height: 50px;
+  display: none;
+}
+
+.all-animals {
+  display:inline-block;
+  position:absolute;
+}
+
+#animal-1 {
+  background: red;
+}
+
+#animal-2 {
+  background: blue;
+}
+
+#animal-3 {
+  background: green;
+}
+#animal-4 {
+  background: orange;
+}
+#animal-5 {
+  background: yellow;
+}
+#animal-6 {
+  background: aqua;
+}
+#animal-7 {
+  background: pink;
+}
+#animal-8 {
+  background: brown;
+}
+#animal-9 {
+  background: maroon;
+}
+#animal-10 {
+  background: black;
+}
+#animal-11 {
+  background: white;
+}
+#animal-12 {
+  background: violet;
+}
+#animal-13 {
+  background: gray;
+}
+#animal-13 {
+  background: teal;
+}
+#animal-15 {
+  background: blue;
+}
+#animal-16 {
+  background: red;
+}
+#animal-17 {
+  background: green;
+}
+#animal-18 {
+  background: pink;
+}
+#animal-19 {
+  background: mediumseagreen;
+}
+#animal-20 {
+  background: lemonchiffon;
+}
+#animal-21 {
+  background: goldenrod;
+}
+#animal-22 {
+  background: plum;
+}
+#animal-23 {
+  background: darkorchid;
+}
+#animal-24 {
+  background: aliceblue;
+}
+#animal-25 {
+  background: mediumturquoise;
+}
+
