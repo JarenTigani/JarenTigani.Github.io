@@ -52,7 +52,7 @@ function showNocturnal() {
   };
   
   function showCrepuscular() {
-    if (timer.seconds >= 1 && 14 <= timer.seconds) {
+    if (timer.seconds >= 0 && 14 <= timer.seconds) {
       $("#animal-7, #animal-9, #animal-22, #animal-27, #animal-30, #animal-37, #animal-43, #animal-44").fadeIn().show();
     } else {
       $("#animal-7, #animal-9, #animal-22, #animal-27, #animal-30, #animal-37, #animal-43, #animal-44").fadeOut().hide();
