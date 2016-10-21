@@ -1,0 +1,76 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+ 	background: linear-gradient(#CAFFFF, #FFFFFF);
+}
+
+
+
+#memories {
+  font-size: 12vmax; 
+  font-family: 'Shrikhand';
+  font-style: normal;
+  font-weight: 400;
+  padding: 0;
+  margin: 2%;
+  }
+
+
+nav {
+	font-family: 'Raleway', sans-serif;
+	position:relative;
+	margin-top:-6%;
+	margin-left:2%;
+
+}
+
+a:link {
+text-decoration: none;
+padding-right: 3%;
+font-size: 1.5vmax;
+}
+
+.orb {
+  display: inline-block;
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: blue;
+  opacity: .5;
+  filter: blur(5px) !important;
+}
+
+.memory {
+  display: none;
+  position: absolute;
+  z-index:1;
+  top: 10px;
+  left: 10px;
+  font-style: sans-serif;
+  padding: 5px;
+  width: 100px;
+  background-color: white;
+  border:3px solid lightgray;
+  border-radius:20px;
+  padding:10px;
+}
+
+.container {
+  position: relative;
+  display:inline-block;
+}
+
+
+@media screen and (max-width:360px) {
+	#memories {
+		font-size: 12vmax;
+	}
+	
+}
