@@ -64,13 +64,7 @@ $(document).ready(function(){
        $(this).removeClass("smollagain");
 
       });
-
-
-		    
-
-		}
+}
 
 	});
-
-
 });
