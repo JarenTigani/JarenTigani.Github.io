@@ -1,0 +1,70 @@
+body {
+	
+}
+
+header {
+	   color: #DD3B42;
+	   dsiplay:inline; }
+
+#how {
+	font-size: 4vmax;
+	padding:0%;
+}
+#chromo {
+	font-size: 10vmax;
+	padding:0% 9% 0% 0%;
+	margin: 0% 9% 0% 0%;
+}
+#work {
+	font-size: 4vmax;
+	padding: 0% 85%;
+
+	
+}
+#content{
+	height:720px;
+	width:1859px;
+	
+}
+
+.info-text {
+	padding: 0%;
+    margin: 0%;
+    font-size: 2vh;
+    
+
+}
+
+video {
+	float: left;
+	display:inline;
+	max-height:100% ;
+	max-width: 100%;
+}
+
+
+
+#info {
+	float: right;
+    display: inline;
+    height: 720px;
+    width: 500px;
+    overflow: scroll;
+    padding: 0% 3% 0% 0%;
+
+
+}
+
+h3{
+	margin: 0% 0% 0% 0%;
+}
+
+#bar{
+	clear: both;
+}
+
+@media screen and (min-width: 960px) {
+    #work {
+ 
+    }
+}
